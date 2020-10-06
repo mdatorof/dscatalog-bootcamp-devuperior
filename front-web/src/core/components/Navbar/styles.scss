@@ -1,6 +1,6 @@
 .main-nav {
   height: 70px;
-  color: #FFF;
+  color: #fff;
   align-items: center;
   padding-left: 40px;
   margin-left: 0;
@@ -21,12 +21,12 @@
     font-style: normal;
     color: rgba(255, 255, 255, 0.5);
     &.active {
-        font-weight: bold;
-        color: #FFF;
+      font-weight: bold;
+      color: #fff;
     }
 
     &:hover {
-        color: #FFF;
+      color: #fff;
     }
   }
 }
