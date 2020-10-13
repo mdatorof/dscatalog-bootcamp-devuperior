@@ -4,7 +4,6 @@ import ButtonIcon from "../../core/components/Button-icon";
 import { Link } from 'react-router-dom';
 import "./styles.scss";
 
-
 const Home = () => (
     <div className="home-container">
         <div className="row home-content card-base border-radius-20">
