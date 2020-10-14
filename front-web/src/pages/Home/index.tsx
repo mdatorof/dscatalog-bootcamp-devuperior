@@ -1,8 +1,8 @@
-import React from "react";
-import { ReactComponent as MainImage } from '../../core/assets/images/main-image.svg';
-import ButtonIcon from "../../core/components/Button-icon";
+import React from 'react';
+import { ReactComponent as MainImage } from 'core/assets/images/main-image.svg';
+import ButtonIcon from 'core/components/Button-icon';
 import { Link } from 'react-router-dom';
-import "./styles.scss";
+import './styles.scss';
 
 const Home = () => (
     <div className="home-container">
