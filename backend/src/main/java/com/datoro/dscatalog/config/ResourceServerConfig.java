@@ -36,7 +36,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter  {
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
 		
-		 //Libera o banco H2
+		 // H2
 		 if (Arrays.asList(env.getActiveProfiles()).contains("test")) {
 			 http.headers().frameOptions().disable();
 		 }
