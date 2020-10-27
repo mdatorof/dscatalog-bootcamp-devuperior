@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import './styles.scss';
 import ProductCard from './components/ProductCard';
 import { Link } from 'react-router-dom';
 import { makeRequest } from 'core/utils/request';
 import { ProductsResponse } from 'core/types/Product';
 import ProductCardLoader from './components/Loaders/ProductCardLoader';
 import Pagination from 'core/components/pagination';
+import './styles.scss';
 
 const Catalog = () => {
   const [productResponse, setProductResponse] = useState<ProductsResponse>();
